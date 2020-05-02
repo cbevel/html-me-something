@@ -5,7 +5,7 @@ body {
     min-height: 500px;
     background-attachment: fixed;
     background-position: right;
-    /* background-repeat: no-repeat; */
+    background-repeat: repeat;
     background-size: cover;
 }
 
@@ -20,6 +20,7 @@ header {
 h3 {
     text-align: center;
     background-color: violet;
+    padding: 21px 460px 21px 40px;
 
 }
 
@@ -50,10 +51,15 @@ footer {
 
 .row {
     padding: 25px; 
-    margin-right: 700px;
+    margin-right: 650px;
     margin-left: 100px;
-    background-color: yellow; 
+    background-color: white; 
     text-align: justify;
     display:inline-block;
 }
 
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
