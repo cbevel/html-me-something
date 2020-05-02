@@ -2,10 +2,9 @@ body {
     background-color: white;
     text-align: center;
     background-image: url("IMG_1860.JPG");
-    opacity: 0.5;
     min-height: 500px;
     background-attachment: fixed;
-    background-position: center;
+    background-position: right;
     /* background-repeat: no-repeat; */
     background-size: cover;
     
@@ -54,7 +53,8 @@ footer {
 
 .row {
     padding: 25px; 
-    margin: 200px;
+    margin-right: 400px;
+    margin-left: 300px;
     background-color: yellow; 
     text-align: justify;
     display:inline-block;
