@@ -2,6 +2,7 @@ img {
     float: left;
     height: auto;
     width: 25%;
+    object-fit: cover;
 }
 
 #header {
