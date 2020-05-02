@@ -9,6 +9,7 @@ header {
     text-align: center;
     border-radius: inherit;
     background-color: yellow;
+    text-size: 20px;
 }
 
 h3 {
@@ -17,15 +18,17 @@ h3 {
 
 p {
     text-align: left;
-    margin: 50px;
+    /* margin: 25px; */
+    font-size: 18px;
 }
 
 img {
     float: left;
     height: auto;
-    width: 50%;
+    width: 40%;
     /* object-fit: cover; */
-    margin: 25px;
+    margin: 10px;
+
 }
 
 #intro {
