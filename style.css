@@ -19,7 +19,7 @@ header {
 
 h3 {
     text-align: center;
-    background-color: violet;
+    background-color: rgb(30, 190, 164);
     padding: 21px 460px 21px 40px;
 
 }
@@ -53,9 +53,10 @@ footer {
     padding: 25px; 
     margin-right: 650px;
     margin-left: 100px;
-    background-color: white; 
-    text-align: justify;
-    display:inline-block;
+    background-color: rgb(112, 97, 9);
+    text-align: center;
+    display: inline-block;
+
 }
 
 .bottom-right {
