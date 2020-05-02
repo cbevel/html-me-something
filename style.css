@@ -3,18 +3,20 @@ body {
     text-align: center;
     background-image: url("IMG_1860.JPG");
     opacity: 0.5;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    
 }
+
   
 
 header {
     padding: 200px;
     margin: 50x;
     text-align: center;
-    background-color: transparent;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 
 }
 
