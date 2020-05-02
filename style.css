@@ -22,28 +22,29 @@ header {
 h3 {
     text-align: center;
     background-color: rgb(30, 190, 164);
-    padding: 21px 46px 21px 40px;
+    padding: 21px 40px;
     margin: 0px;
 
 }
 
 p {
     text-align: left;
-    margin: 25px;
+    margin: 15px;
     font-size: 18px;
 }
 
-img {
+/* img {
     float: left;
     height: auto;
     width: 40%;
     object-fit: cover;
-    margin: 15px;
-}
+    margin: 8px 10px 5px 10px; 
+} */
 
 #intro {
     background-color: rgb(30, 190, 164);
-    text-align: center;
+    text-align: right;
+    margin-left: 500px;
 }
 
 
@@ -60,7 +61,7 @@ footer {
     text-align: center;
     display: inline-block;
 }
-.row::after{
+.row:after {
     content: "";
     display: table;
     clear: both;
