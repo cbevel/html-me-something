@@ -7,20 +7,20 @@ body {
     background-position: right;
     /* background-repeat: no-repeat; */
     background-size: cover;
-    
 }
 
-  
 
 header {
-    padding: 200px;
-    margin: 50x;
     text-align: center;
-
+    background-color:transparent;
+    /* margin: 500px; */
+    padding: 500px;
 }
 
 h3 {
     text-align: center;
+    background-color: violet;
+
 }
 
 p {
@@ -33,28 +33,25 @@ img {
     float: left;
     height: auto;
     width: 40%;
-    /* object-fit: cover; */
+    object-fit: cover;
     margin: 15px;
-
 }
 
 #intro {
-    padding: 30px;
-    margin: 200px;
     background-color: yellow;
     text-align: center;
-    margin: 50px;
 }
 
 
 footer {
     text-align: center;
+    background-color: teal;
 }
 
 .row {
     padding: 25px; 
-    margin-right: 400px;
-    margin-left: 300px;
+    margin-right: 700px;
+    margin-left: 100px;
     background-color: yellow; 
     text-align: justify;
     display:inline-block;
