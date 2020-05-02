@@ -5,7 +5,7 @@ img {
     object-fit: cover;
 }
 
-#header {
+#intro {
     padding 70px;
     border: 1px solid transparent;
     background-color: gray;
@@ -13,4 +13,8 @@ img {
 
 body {
     background-color: green;
+}
+
+footer {
+    text-align: center;
 }
