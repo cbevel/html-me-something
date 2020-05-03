@@ -10,12 +10,7 @@ body, html {
 
 
 header {
-    /* margin: 500px; */
-    /* background-image: url("IMG_1860.JPG");
-    background-size: cover;
-    background-position: 75%;  */
-    /* height: 3000px; */
-    padding: 200px 700px 200px 300px;
+    padding: 50px 700px 50px 300px;
     background-color: white; 
 }
 
@@ -47,6 +42,31 @@ h3 {
     margin-bottom: 0;
        
 }
+
+#tokyo3 h3{
+    padding: 5px;
+}
+
+/* navigation bar*/
+.navigation-bar a {
+    display: inline-block;
+    color: black;
+    text-align: right;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+  
+  .navigation-bar a:hover {
+    background-color: rgb(112, 97, 9);
+    color: black;
+  }
+  
+  .pill-nav a.active {
+    background-color: rgb(186, 231, 224);
+    color: white;
+  }
 
 
 .tokyo, .kyoto, .bangkok, .phuket, .chiang-mai, .seoul {
