@@ -4,12 +4,15 @@ body, html {
     animation: fadeInAnimation ease 3s; 
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
+    margin: 0;
+    height: 100%;
 }
 
 
 header {
-    margin: 500px;
-    background-color:
+    /* margin: 500px; */
+    padding: 200px 500px;
+    background-color: white; 
 }
 
 
@@ -24,7 +27,7 @@ p {
     background-color: rgb(112, 97, 9);
     text-align: justify;
     font-size: 18px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.932);
 }
 
 h3 {
@@ -32,6 +35,7 @@ h3 {
     background-color: rgb(186, 231, 224);
     padding: 25px 25px;
     margin:0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.877), 0 6px 20px 0 rgba(0, 0, 0, 0.829);
 }
    
 #seoul2 p {
@@ -78,6 +82,8 @@ h3 {
 .seoul {
     background-image: url("IMG_0376.JPG");
 
+}
+
     /* fade in */
 @keyframes fadeInAnimation { 
     0% { 
@@ -93,7 +99,7 @@ h3 {
       background-attachment: scroll;
     }
   }
-} 
+
 
 
 footer {
