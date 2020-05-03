@@ -3,12 +3,67 @@ body {
     text-align: center;
 }
    
+.tokyo, .kyoto, .bangkok, .phuket, .chiang-mai, .seoul {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bamboo {
+    background-image: url("IMG_1860.JPG");
+    min-height: 100%;
+}
+
+.tokyo {
+    background-image: url("IMG_0908.jpeg");
+    min-height: 100%;
+}
+
+.kyoto {
+    background-image: url("kyoto.JPG");
+    min-height: 100%;
+}
+
+.bangkok {
+    background-image: url("IMG_1351.jpeg");
+    min-height: 100%;
+
+}
+
+.phuket {
+    background-image: url("IMG_1409.jpeg");
+    min-height: 100%;
+
+}
+
+.chiang-mai {
+    background-image: url("IMG_0303.JPG");
+    min-height: 100%;
+
+}
+
+.seoul {
+    background-image: url("IMG_0376.JPG");
+    min-height: 100%;
+
+} 
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
 
 header {
     text-align: center;
     background-color:transparent;
-    /* margin: 500px; */
-    padding: 350px;
+    /* margin: 500px;
+    padding: 350px; */
 }
 
 h3 {
@@ -28,11 +83,11 @@ p {
 
 
 
-#intro {
+/* #intro {
     background-color: rgb(30, 190, 164);
     text-align: right;
     margin-left: 500px;
-}
+} */
 
 
 footer {
@@ -52,7 +107,13 @@ footer {
     content: "";
     display: table;
     clear: both;
-}
+} 
+
+
+/* Image Styles */
+
+
+
 
 /* .bottom-right {
     position: absolute;
