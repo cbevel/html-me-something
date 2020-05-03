@@ -9,9 +9,17 @@ body, html {
     
 }
 
+#top {
+    background-color: rgb(186, 231, 224);
+    padding: 25px;
+    margin:0px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+}
+
+
 
 header {
-    padding: 50px 700px 50px 300px;
+    padding: 300px 700px 300px 300px;
     background-color: white; 
 }
 
@@ -22,7 +30,7 @@ header {
 }
 
 p {
-    margin: 700px 150px 200px 150px;
+    margin: 700px 0px 0px 0px;
     padding: 50px;
     background-color: rgb(112, 97, 9);
     text-align: justify;
@@ -34,7 +42,7 @@ p {
 h3 {
     text-align: center;
     background-color: rgb(186, 231, 224);
-    padding: 15px;
+    padding: 5px;
     margin:0px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.877), 0 6px 20px 0 rgba(0, 0, 0, 0.829);
 }
