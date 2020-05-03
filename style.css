@@ -53,10 +53,12 @@ h3 {
     text-align: center;
     background-color: rgb(30, 190, 164);
     padding: 21px 40px;
-    margin: 0px;
+    margin:0px;
 }
 
-
+.heading p {
+    margin: 0px;
+}
 
 #intro {
     background-color: rgb(30, 190, 164);
@@ -71,7 +73,7 @@ footer {
 }
 
 p {
-    margin: 600px 100px;
+    margin: 700px 150px 200px 150px;
     padding: 50px;
     background-color: rgb(112, 97, 9);
     text-align: justify;
