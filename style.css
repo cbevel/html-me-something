@@ -11,7 +11,11 @@ body, html {
 
 header {
     /* margin: 500px; */
-    padding: 200px 500px;
+    /* background-image: url("IMG_1860.JPG");
+    background-size: cover;
+    background-position: 75%;  */
+    /* height: 3000px; */
+    padding: 200px 700px 200px 300px;
     background-color: white; 
 }
 
@@ -28,6 +32,7 @@ p {
     text-align: justify;
     font-size: 18px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.932);
+    opacity: 0.95;
 }
 
 h3 {
@@ -55,7 +60,7 @@ h3 {
 }
 
 .bamboo {
-    background-image: url("IMG_1860.JPG");
+    
     min-height: 100%;
 }
 
