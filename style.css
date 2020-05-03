@@ -1,16 +1,8 @@
 body {
     background-color: white;
     text-align: center;
-    background-image: url("IMG_1860.JPG");
-    /* min-height: 500px; */
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
-    /* filter: blur(8px) */
 }
-
+   
 
 header {
     text-align: center;
@@ -24,8 +16,9 @@ h3 {
     background-color: rgb(30, 190, 164);
     padding: 21px 40px;
     margin: 0px;
-
 }
+
+
 
 p {
     text-align: left;
@@ -33,13 +26,7 @@ p {
     font-size: 18px;
 }
 
-/* img {
-    float: left;
-    height: auto;
-    width: 40%;
-    object-fit: cover;
-    margin: 8px 10px 5px 10px; 
-} */
+
 
 #intro {
     background-color: rgb(30, 190, 164);
@@ -67,8 +54,26 @@ footer {
     clear: both;
 }
 
-.bottom-right {
+/* .bottom-right {
     position: absolute;
     bottom: 8px;
     right: 16px;
-  }
+  } */
+
+  /* img {
+    float: left;
+    height: auto;
+    width: 40%;
+    object-fit: cover;
+    margin: 8px 10px px 10px; 
+} */
+
+/* background deets */
+ /* background-image: url("IMG_1860.JPG");
+    /* min-height: 500px; */
+    /* height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover; */ */
+    /* filter: blur(8px) */
