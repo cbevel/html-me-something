@@ -7,8 +7,6 @@ body, html {
 }
 
 
-
-
 header {
     margin: 500px;
     background-color:
@@ -49,7 +47,7 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100%;
-    opacity: 0.65;
+    /* opacity: 0.65; */
 }
 
 .bamboo {
