@@ -1,22 +1,27 @@
 body, html {
     background-color: white;
     text-align: center;
+    animation: fadeInAnimation ease 3s; 
+            animation-iteration-count: 1; 
+            animation-fill-mode: forwards; 
 }
+/* fade in */
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+} 
 
 .heading {
-    text-align: center;
-    background-color:transparent;
-    /* margin: 500px;
-    padding: 350px; */
-}
-
-.heading p {
-    margin: 0px;
+    margin: 500px;
 }
 
 
 #intro {
-    background-color: rgb(186, 231, 224);
+    /* background-color: rgb(186, 231, 224); */
     text-align: center;
 }
 
@@ -38,7 +43,7 @@ h3 {
    
 #seoul2 p {
     margin-bottom: 0;
-    
+       
 }
 
 
