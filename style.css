@@ -2,21 +2,16 @@ body, html {
     background-color: white;
     text-align: center;
     animation: fadeInAnimation ease 3s; 
-            animation-iteration-count: 1; 
-            animation-fill-mode: forwards; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
 }
-/* fade in */
-@keyframes fadeInAnimation { 
-    0% { 
-        opacity: 0; 
-    } 
-    100% { 
-        opacity: 1; 
-    } 
-} 
 
-.heading {
-    margin: 500px;  
+
+
+
+header {
+    margin: 500px;
+    background-color:
 }
 
 
@@ -54,6 +49,7 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100%;
+    opacity: 0.65;
 }
 
 .bamboo {
@@ -63,7 +59,6 @@ h3 {
 
 .tokyo {
     background-image: url("IMG_0908.jpeg");
-
 }
 
 .kyoto {
@@ -84,6 +79,22 @@ h3 {
 
 .seoul {
     background-image: url("IMG_0376.JPG");
+
+    /* fade in */
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+} 
+
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+  }
 } 
 
 
